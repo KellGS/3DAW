@@ -1,0 +1,4 @@
+nome;endereco;cep;cidade;estado;cpf;datanascimento
+Kelly;Rua Cap.Teixeira, 382;20031120;Rio de Janeiro;RJ;12345678910;02041998
+Thales;Travessa Leonor, s/n;21033120;Rio de Janeiro;RJ;98765432110;15072000;
+            
