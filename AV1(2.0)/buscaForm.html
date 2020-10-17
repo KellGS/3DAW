@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Busca de Aluno</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <style>
+            body{
+                background-color: #008B8B;
+                font-family: 'Montserrat', sans-serif;
+
+            }
+            .container{
+                background-color: #F0F8FF;
+                border: 2px solid #ADD8E6;;
+                border-radius: 8px;
+                padding: 20px;
+                text-align: center;
+                position: absolute;
+                left: 38%;
+                margin-top: 18%;
+            }
+            
+            a, .input{
+                color:#4682B4;
+                background-color: #B0E0E6;
+                border-radius: 3px;
+                padding: 5px;
+                text-decoration: none;
+                margin-top: 10px;
+            }
+            .input{
+                border: none;
+                padding: 7px;
+                font-size: 15px;
+                font-family: 'Montserrat', sans-serif;
+            }
+            a:hover, .input:hover{
+                background-color:#6495ED;
+            }
+        </style>
+	</head>
+    <body>
+        <div class="container">
+            <h1>Buscar Aluno</h1>
+            <form action="busca.php" method="POST">
+                Matricula do Aluno: <input type="text" name="mat">
+                <br>
+                <input class=input type="submit">
+                <a href="index.html">Voltar</a>
+            </form>
+        </div>
+    </body>
+</html>
